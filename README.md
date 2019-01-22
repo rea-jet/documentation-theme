@@ -1,25 +1,17 @@
-## Devseed Theme for documentation.js
-
-[![CircleCI](https://circleci.com/gh/developmentseed/documentation-devseed-theme.svg?style=svg)](https://circleci.com/gh/developmentseed/documentation-devseed-theme)
-[![npm version](https://badge.fury.io/js/documentation-devseed-theme.svg)](http://badge.fury.io/js/documentation-devseed-theme)
-
+## REA Theme for documentation.js
 
 This is a theme for [documentationjs](https://github.com/documentationjs/documentation).
-
-![screenshot](screenshot.png)
-
-Live version: https://devseed.com/kes
 
 ### Usage
 
 ```
-$ npm install --save-dev documentation-devseed-theme
+$ npm install --save-dev @rea-jet/documentation-theme
 $ npm install -g documentation
 ```
 
 Then use the theme to build your docs:
 
-    $ documentation serve --format html --theme node_modules/documentation-devseed-theme
+    $ documentation serve --format html --theme node_modules/@rea-jet/documentation-theme
 
 ### Development
 
@@ -30,4 +22,3 @@ To build:
 To build and watch:
 
     $ npm run watch
-
