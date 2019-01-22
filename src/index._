@@ -8,6 +8,7 @@
   <link href='assets/style.css' type='text/css' rel='stylesheet' />
   <link href='assets/github.css' type='text/css' rel='stylesheet' />
   <link href='assets/split.css' type='text/css' rel='stylesheet' />
+  <link href='assets/rea.css' type='text/css' rel='stylesheet' />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i" />
 </head>
 <body class='documentation m0'>
@@ -20,7 +21,7 @@
         </div>
 
         <a id="menu-toggle" href="#prime-nav" title="Show/hide menu" class="menu-toggle"><span>Browse</span></a>
-        
+
         <nav class="page__prime-nav" id="prime-nav">
           <input placeholder='Filter' id='filter-input' class='col12 block input' type='text' />
 
@@ -115,13 +116,9 @@
 
     <footer class="page__footer" role="contentinfo">
       <div class="inner">
-        <p>
-          <a href="https://developmentseed.org" title="Visit Development Seed website"><img src="assets/images/devseed-logo-symbol.svg" alt="Development Seed logo symbol" width="512" height="152"> <span>Development Seed</span></a>
-          <small>2017</small>
-        </p>
       </div>
     </footer>
-      
+
   </div>
 
   <script src='assets/anchor.js'></script>

@@ -3,15 +3,14 @@
 
 body {
   background: #fbfbfb;
-  color: #534e4e;
+  color: rgb(0, 34, 69);
   font-size: 1rem;
   line-height: 1.5;
-  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-style: normal;
   min-width: 320px;
 }
-
 
 /* Page styles
    ========================================================================== */
@@ -23,7 +22,7 @@ body {
 }
 
 .page__header {
-  background: #534e4e;
+  background: rgb(0, 34, 69);
   color: #fff;
 }
 
@@ -41,8 +40,8 @@ body {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  display: block;;
-  background: rgba(255,255,255,0.16);
+  display: block;
+  background: rgba(255, 255, 255, 0.16);
   border-radius: 0.25rem;
   color: #fff;
   width: 1.75rem;
@@ -54,7 +53,7 @@ body {
 }
 
 .menu-toggle:before {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -62,12 +61,17 @@ body {
   width: 1rem;
   height: 1rem;
   background: linear-gradient(
-    to bottom, 
-    #fff, #fff 20%, 
-    transparent 20%, transparent 40%, 
-    #fff 40%, #fff 60%, 
-    transparent 60%, transparent 80%, 
-    #fff 80%, #fff 100%
+    to bottom,
+    #fff,
+    #fff 20%,
+    transparent 20%,
+    transparent 40%,
+    #fff 40%,
+    #fff 60%,
+    transparent 60%,
+    transparent 80%,
+    #fff 80%,
+    #fff 100%
   );
 }
 
@@ -94,7 +98,7 @@ body {
 .page__footer {
   background: #534e4e;
   color: #fff;
-  font-size: .875rem;
+  font-size: 0.875rem;
   line-height: 1rem;
   font-weight: 400;
   overflow: hidden;
@@ -167,17 +171,17 @@ body {
 
 .page__subtitle {
   position: relative;
-  color: rgba(255,255,255,.64);
-  font-size: .875rem;
+  color: rgba(255, 255, 255, 0.64);
+  font-size: 0.875rem;
   line-height: 1.25rem;
-  margin: .25rem 0;
-  font-weight: inherit;;
+  margin: 0.25rem 0;
+  font-weight: inherit;
 }
 
 .page__footer :last-child {
   margin-bottom: 0;
 }
-.page__footer>.inner {
+.page__footer > .inner {
   padding: 0 2rem 2rem 5rem;
 }
 
@@ -185,7 +189,7 @@ body {
   position: relative;
   color: inherit;
   display: block;
-  padding-top: .5rem;
+  padding-top: 0.5rem;
 }
 
 .page__footer a::before {
@@ -195,19 +199,21 @@ body {
   background: #cf3f02;
   height: 6rem;
   width: 2rem;
-  content: "";
-  border-radius: .25rem .25rem 0 0;
+  content: '';
+  border-radius: 0.25rem 0.25rem 0 0;
 }
 
 .page__footer a img {
   position: absolute;
-  top: .5rem;
+  top: 0.5rem;
   left: -3rem;
   width: 2rem;
   height: auto;
 }
 
-.page__footer a span, b, strong {
+.page__footer a span,
+b,
+strong {
   font-weight: 700;
 }
 
@@ -220,7 +226,7 @@ body {
   line-height: 1.25;
 }
 
-.ppn__menu>li {
+.ppn__menu > li {
   margin: 0 -2rem;
 }
 
@@ -229,15 +235,15 @@ body {
   position: relative;
   display: block;
   color: inherit;
-  padding: .25rem 2rem;
+  padding: 0.25rem 2rem;
 }
 
 .ppn__section-title {
   position: relative;
-  color: rgba(255,255,255,.64);
-  font-size: .75rem;
+  color: rgba(255, 255, 255, 0.64);
+  font-size: 0.75rem;
   line-height: 1;
-  margin: 0 0 .5rem;
+  margin: 0 0 0.5rem;
 }
 
 .ppn__menu-item-red::before {
@@ -246,9 +252,9 @@ body {
   left: 0;
   z-index: 1;
   height: 100%;
-  width: .5rem;
+  width: 0.5rem;
   background: #cf3f02;
-  content: "";
+  content: '';
   transition: all 0.24s ease 0s;
 }
 
@@ -272,17 +278,15 @@ h4 {
   border-color: #ddd;
 }
 
-
 a {
   cursor: pointer;
   text-decoration: none;
-  transition: opacity .24s ease 0s;
+  transition: opacity 0.24s ease 0s;
 }
-
 
 a:hover {
   cursor: pointer;
-  opacity: .64;
+  opacity: 0.64;
 }
 
 .py1-ul li {
@@ -298,12 +302,12 @@ a:hover {
 }
 
 section:target h3 {
-  font-weight:700;
+  font-weight: 700;
 }
 
 .documentation td,
 .documentation th {
-    padding: .25rem .25rem;
+  padding: 0.25rem 0.25rem;
 }
 
 h1:hover .anchorjs-link,
@@ -329,13 +333,16 @@ h4:hover .anchorjs-link {
   }
 }
 
-.pre, pre, code, .code {
-  font-family: Source Code Pro,Menlo,Consolas,Liberation Mono,monospace;
+.pre,
+pre,
+code,
+.code {
+  font-family: Source Code Pro, Menlo, Consolas, Liberation Mono, monospace;
   font-size: 14px;
 }
 
 .fill-light {
-  background: #F9F9F9;
+  background: #f9f9f9;
 }
 
 .width2 {
@@ -347,12 +354,12 @@ h4:hover .anchorjs-link {
   display: block;
   width: 100%;
   height: 2rem;
-  padding: .5rem;
+  padding: 0.5rem;
   margin-bottom: 1rem;
-  font-size: .875rem;
+  font-size: 0.875rem;
   border-radius: 0.25rem;
   box-sizing: border-box;
-  box-shadow: 0 0 0 1px rgba(0,0,0,0.16);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.16);
   border: 0;
 }
 
@@ -363,15 +370,17 @@ table {
 .prose table th,
 .prose table td {
   text-align: left;
-  padding:8px;
-  border:1px solid #ddd;
+  padding: 8px;
+  border: 1px solid #ddd;
 }
 
-.prose table th:nth-child(1) { border-right: none; }
-.prose table th:nth-child(2) { border-left: none; }
+.prose table th:nth-child(1) {
+}
+.prose table th:nth-child(2) {
+}
 
 .prose table {
-  border:1px solid #ddd;
+  border: 1px solid #333;
 }
 
 .prose-big {
@@ -393,25 +402,28 @@ table {
   height: 1px;
   background: #534e4e;
   display: block;
-  margin: .75rem 0 0;
+  margin: 0.75rem 0 0;
 }
 
-.markdown-body table th, .markdown-body table td {
+.markdown-body table th,
+.markdown-body table td {
   padding: 6px 13px;
-  border: 1px solid #dfe2e5;
+  border: 1px solid #333;
 }
 
-.markdown-body code, .markdown-body tt {
+.markdown-body code,
+.markdown-body tt {
   padding: 0;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
   margin: 0;
   font-size: 85%;
-  background-color: rgba(27,31,35,0.05);
+  background-color: rgba(27, 31, 35, 0.05);
   border-radius: 3px;
 }
 
-.markdown-body .highlight pre, .markdown-body pre {
+.markdown-body .highlight pre,
+.markdown-body pre {
   padding: 16px;
   overflow: auto;
   font-size: 85%;
