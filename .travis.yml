@@ -6,8 +6,12 @@ notifications:
   email: false
 node_js:
   - '10'
-  - '9'
   - '8'
+script:
+  - yarn
+  - yarn run build
+after_success:
+  - npx semantic-release
 branches:
   except:
     - /^v\d+\.\d+\.\d+$/

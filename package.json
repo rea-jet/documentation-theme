@@ -1,13 +1,14 @@
 {
   "name": "@rea-jet/documentation-theme",
-  "version": "0.1.4",
+  "version": "0.0.0-development",
   "description": "Theme for documentation.js",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel -D src -d lib",
     "watch": "babel -D src -d lib --watch",
-    "prepublish": "npm run build"
+    "prepublish": "npm run build",
+    "semantic-release": "semantic-release"
   },
   "author": "",
   "license": "CC0-1.0",
@@ -26,6 +27,11 @@
     "babel-preset-flow": "^6.23.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
-    "babylon": "^6.18.0"
+    "babylon": "^6.18.0",
+    "semantic-release": "^15.13.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rea-jet/documentation-theme.git"
   }
 }
