@@ -1,7 +1,7 @@
 {
-  "name": "documentation-devseed-theme",
+  "name": "@rea-jet/documentation-theme",
   "version": "0.1.4",
-  "description": "Devseed Theme for documentation.js",
+  "description": "Theme for documentation.js",
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,16 +9,8 @@
     "watch": "babel -D src -d lib --watch",
     "prepublish": "npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/developmentseed/documentationjs-devseed-theme.git"
-  },
-  "author": "Development Seed",
+  "author": "",
   "license": "CC0-1.0",
-  "bugs": {
-    "url": "https://github.com/developmentseed/documentationjs-devseed-theme/issues"
-  },
-  "homepage": "https://github.com/developmentseed/documentationjs-devseed-theme#readme",
   "dependencies": {
     "concat-stream": "^1.6.0",
     "documentation": "^5.2.2",
