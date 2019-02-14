@@ -196,7 +196,8 @@ body {
   position: absolute;
   top: 0;
   left: -3rem;
-  background: #cf3f02;
+  /* background: #cf3f02; */
+  background: rgba(0, 0, 0, 0);
   height: 6rem;
   width: 2rem;
   content: '';
@@ -253,7 +254,8 @@ strong {
   z-index: 1;
   height: 100%;
   width: 0.5rem;
-  background: #cf3f02;
+  /* background: #cf3f02; */
+  background: rgba(0, 0, 0, 0);
   content: '';
   transition: all 0.24s ease 0s;
 }
