@@ -20,3 +20,17 @@ table th {
   background: rgba(0, 0, 0, 0.1);
   padding: 0;
 }
+
+.rea-h5 {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.ppn__menu-item {
+  color: #c5c5c5;
+}
+
+.inner {
+  overflow: auto;
+}
